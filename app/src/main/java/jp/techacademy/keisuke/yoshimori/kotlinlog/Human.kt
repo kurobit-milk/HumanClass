@@ -3,9 +3,11 @@ package jp.techacademy.keisuke.yoshimori.kotlinlog
 import android.util.Log
 
 open class Human: Animal, Thinkable {
-    var hobby="ゲーム"
+    //プロパティ
+    //var hobby="ゲーム"
+
     // 引数付きコンストラクタ
-    constructor(name: String, age: Int) : super(name, age) {
+    constructor(name: String, age: Int, hobby: String) : super(name, age, hobby) {
     }
 
     // Animalクラスのメソッドをオーバーライド
